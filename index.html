@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzPz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <div class="firstpage">
+    <div class="hero">
+        <h1>Welcome To EzPz...</h1>
+        <div class="hero-content">EzPz: Because logging in shouldn’t feel like an exam!
+        </div>
+    </div>
+    <div class="goto">
+        <button><a href="#main-content">Main content</a></button>
+    </div>
+   </div>
+    <div id="main-content">
+        <div class="sidebar">
+            <ul>
+                <li onclick="loadContent('prn')">PRN</li>
+                <li onclick="loadContent('calendar')">Academic Calendar</li>
+                <li onclick="loadContent('TimeTable')">Time Table</li>
+                <li onclick="loadContent('email')">Email Template</li>
+                <li onclick="loadContent('syllabus')">Syllabus</li>
+                <li onclick="loadContent('moodle')">Moodle</li>
+                <li onclick="loadContent('Studentportal')">Student Portal</li>
+                <li onclick="loadContent('contacts')">Contacts</li>
+            </ul>
+        </div>
+    
+        <div class="content">
+            <div id="content-display">
+                <!-- Content will be loaded here -->
+                <p>Welcome! Click on the options to view the content.</p>
+                <script src = "s.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
